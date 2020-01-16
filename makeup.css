@@ -316,9 +316,52 @@ transition: all 0.5s linear;
     line-height: 1.6;
     font-size: 13px;
     margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     padding: 0 25%;
 }
+.portfolio .navbar {
+	border-radius: 35px;
+	border: 2px solid #756aff;
+	margin: 50px 250px;
+	position: relative;
+}
+.portfolio .navbar .navmenu{
+
+}
+.portfolio .navbar .navmenu .navitem{
+    list-style: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.portfolio .navbar .navmenu .navitem .navlink{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.portfolio .navbar .navmenu .navitem .all{
+	color: white !important;
+}
+.portfolio .navbar .navmenu .navitem:hover .navlink{
+	color: #756aff;
+	font-weight: 600;
+	transition: all 0.2s ease-in-out;
+}
+.portfolio .navbar .navmenu .navitem::before{
+	content: "";
+	position: absolute;
+	border-radius: 35px;
+	background: #756aff;
+	width: 15%;
+	z-index: -1;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+
+
 .port-image{
 	position: relative;
 }
